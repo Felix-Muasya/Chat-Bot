@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello, how are you doing?",
+        "Hi, I'm Sam. How may I be of assistance?",
+        "Good morning to you too. How was your sleep?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Until next time", "Alright, all the best"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Good bye, I look forward to your next visit"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "I appreciate your help"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "It's what I do", "Always ready to help"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What goods are on sale",
+        "What do you  have on sale?",
+        "Tell me about what you have"
+
+      ],
+      "responses": [
+        "We sell beverages, drinks, groceries, some electronics, and hair products for now",
+        "We have coffee and tea on sale with a 15% discount"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Do you take crypto?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "Yes, we accept payments in crypto but only Bitcoin, Ethereum and Ravencoin",
+        "Yes we accept cash and Mpesa"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh or smile"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        ""
+      ]
+    },
+    {
+      "tag": "Introduction",
+      "patterns":  [
+        "What is your name?",
+        "What would you like me to address you as?",
+        "Do you have a name?",
+        "Would  "
+      ],
+      "response": [
+        "My name is Sam",
+        "I go by the Sam",
+        "You can call me Sam"
+      ]
+    }
+  ]
+}
